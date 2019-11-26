@@ -3,6 +3,7 @@
 body {
     padding: 0;
     margin: 0;
+    align: center;
     font-family: 'work sans' , sans-serif;
     font-size: 18px;
     line-height: 150%;
@@ -19,7 +20,7 @@ h3 {
 
   .container {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    width: 80%;
+    width: 80%; 
     margin: 0 auto;
     background: #ffffff:
 }
@@ -32,10 +33,6 @@ h3 {
       content: '';
       display: table;
       clear: both;
-}
-
-  .logo {
-    float: left;
 }
 
 nav {
@@ -51,7 +48,7 @@ nav ul {
 nav li {
     display: inline-block;
     margin-left: 60px;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 nav a {
