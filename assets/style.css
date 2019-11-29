@@ -45,12 +45,22 @@ nav li > a {
   color: #4aaaa5;
 }
 
+.main{
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(8, 20vw);
+  grid-gap: 15px;
+}
+
 .footer {
   position: fixed;
   background-color: #666666;
   color: #fff;
   border-top: solid 8px #4aaaa5;
-  width: 960px;
+  width: 100%;
   height: 75px;
   bottom: 0px;
   margin-left: auto;
