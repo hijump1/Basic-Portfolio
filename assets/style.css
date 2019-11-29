@@ -52,15 +52,17 @@ h1 {
   width: 960px;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color: #777777;
-  align
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.bio-image {
+#bio-image {
   float: left;
+  padding-right: 15px;
 }
 
-.main-bio {
-  float: right;
+#main-bio {
+  line-height: 32pt;
 }
 
 footer {
